@@ -1,0 +1,1043 @@
+[
+{
+"question_id": "sw-001",
+"title": "Sliding window technique is primarily used for:",
+"options": ["Graph traversal", "Fixed-size subarray problems", "Sorting arrays", "Binary search"],
+"correct_option": "Fixed-size subarray problems",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "sw-002",
+"title": "Sliding window reduces brute-force O(n²) solutions to:",
+"options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+"correct_option": "O(n)",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "sw-003",
+"title": "Variable-size sliding window is useful when:",
+"options": ["Array is sorted", "Window size depends on condition", "Data is static", "Elements are unique"],
+"correct_option": "Window size depends on condition",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "sw-004",
+"title": "Which structure is commonly used with sliding window for substring problems?",
+"options": ["Heap", "HashMap", "Binary tree", "Stack"],
+"correct_option": "HashMap",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 2,
+"expected_time": 50
+},
+{
+"question_id": "sw-005",
+"title": "Sliding window fails when the condition is:",
+"options": ["Monotonic", "Non-monotonic", "Fixed", "Static"],
+"correct_option": "Non-monotonic",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "sw-006",
+"title": "Which is classic sliding window problem?",
+"options": ["Longest substring without repeating characters", "Topological sort", "Binary search", "Minimum spanning tree"],
+"correct_option": "Longest substring without repeating characters",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 2,
+"expected_time": 65
+},
+{
+"question_id": "sw-007",
+"title": "Why does sliding window avoid recomputation?",
+"options": ["Reuses previous window result", "Sorts array first", "Uses recursion", "Caches results globally"],
+"correct_option": "Reuses previous window result",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "sw-008",
+"title": "Which scenario is unsuitable for sliding window?",
+"options": ["Dynamic constraint depending on future values", "Fixed-length subarray sum", "Substring problems", "Maximum sum of k elements"],
+"correct_option": "Dynamic constraint depending on future values",
+"concept": "Arrays",
+"sub_concept": "Sliding Window",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "ps-001",
+"title": "What is the primary benefit of using a prefix sum array?",
+"options": ["Reduces space complexity", "Optimizes sorting", "Enables O(1) range sum queries", "Improves binary search"],
+"correct_option": "Enables O(1) range sum queries",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "ps-002",
+"title": "To compute sum of elements from index l to r using prefix sum array P, which formula is correct?",
+"options": ["P[r] - P[l]", "P[r] - P[l-1]", "P[l] - P[r]", "P[r+1] - P[l-1]"],
+"correct_option": "P[r] - P[l-1]",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "ps-003",
+"title": "What is the time complexity of building a prefix sum array?",
+"options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+"correct_option": "O(n)",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "ps-004",
+"title": "Prefix sum technique is most useful when the array is:",
+"options": ["Frequently updated", "Static with many queries", "Sorted", "Contains duplicates"],
+"correct_option": "Static with many queries",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 2,
+"expected_time": 50
+},
+{
+"question_id": "ps-005",
+"title": "Which data structure improves prefix sum to handle frequent updates?",
+"options": ["Stack", "Binary Indexed Tree", "Queue", "Heap"],
+"correct_option": "Binary Indexed Tree",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "ps-006",
+"title": "In 2D prefix sums, each cell stores:",
+"options": ["Row sum", "Column sum", "Total from (0,0) to (i,j)", "Diagonal sum"],
+"correct_option": "Total from (0,0) to (i,j)",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 2,
+"expected_time": 65
+},
+{
+"question_id": "ps-007",
+"title": "Why is prefix sum inefficient for dynamic arrays with frequent updates?",
+"options": ["Requires sorting", "Needs full recomputation", "Consumes too much memory", "Cannot handle negatives"],
+"correct_option": "Needs full recomputation",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "ps-008",
+"title": "Which scenario best fits 2D prefix sum usage?",
+"options": ["Graph traversal", "Submatrix sum queries", "Shortest path", "Binary search tree operations"],
+"correct_option": "Submatrix sum queries",
+"concept": "Arrays",
+"sub_concept": "Prefix Sum",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "tp-001",
+"title": "Two pointers technique is most effective when array is:",
+"options": ["Unsorted", "Sorted", "Randomized", "Contains duplicates"],
+"correct_option": "Sorted",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "tp-002",
+"title": "Which problem is classic two-pointer example?",
+"options": ["Two Sum in sorted array", "Binary search tree traversal", "Graph BFS", "Heap sort"],
+"correct_option": "Two Sum in sorted array",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "tp-003",
+"title": "Two pointer technique reduces time complexity from O(n²) to:",
+"options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+"correct_option": "O(n)",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "tp-004",
+"title": "In sorted array, when sum is greater than target, which pointer moves?",
+"options": ["Left pointer right", "Right pointer left", "Both move", "None move"],
+"correct_option": "Right pointer left",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 2,
+"expected_time": 50
+},
+{
+"question_id": "tp-005",
+"title": "Two pointers can also be used to detect:",
+"options": ["Cycle in linked list", "Heap imbalance", "Graph connectivity", "Matrix determinant"],
+"correct_option": "Cycle in linked list",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 2,
+"expected_time": 55
+},
+{
+"question_id": "tp-006",
+"title": "Which condition must hold for two-pointer strategy to work correctly in pair sum problem?",
+"options": ["Array must be sorted", "Array must be unique", "Array must be large", "Array must contain negatives"],
+"correct_option": "Array must be sorted",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "tp-007",
+"title": "Why does two-pointer fail in unsorted array for pair sum?",
+"options": ["Cannot guarantee direction movement", "Consumes extra memory", "Requires recursion", "Slower than brute force"],
+"correct_option": "Cannot guarantee direction movement",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "tp-008",
+"title": "Two-pointer technique is equivalent to which idea?",
+"options": ["Binary search", "Greedy elimination from both ends", "Dynamic programming", "Divide and conquer"],
+"correct_option": "Greedy elimination from both ends",
+"concept": "Arrays",
+"sub_concept": "Two Pointers",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "kd-001",
+"title": "Kadane’s algorithm is used to solve:",
+"options": ["Maximum subarray sum", "Minimum spanning tree", "Binary search", "Shortest path"],
+"correct_option": "Maximum subarray sum",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "kd-002",
+"title": "What is the space complexity of Kadane’s algorithm?",
+"options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+"correct_option": "O(1)",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "kd-003",
+"title": "Kadane resets running sum when:",
+"options": ["Current element is negative", "Running sum becomes negative", "Array ends", "Sum exceeds target"],
+"correct_option": "Running sum becomes negative",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "kd-004",
+"title": "Why does resetting negative running sum work?",
+"options": ["Negative prefix decreases future sums", "Reduces memory", "Avoids recursion", "Sorts array"],
+"correct_option": "Negative prefix decreases future sums",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "kd-005",
+"title": "Which variation allows tracking subarray indices?",
+"options": ["Store start index when reset occurs", "Binary search", "Divide array", "Use heap"],
+"correct_option": "Store start index when reset occurs",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 2,
+"expected_time": 65
+},
+{
+"question_id": "kd-006",
+"title": "Kadane fails in naive form when:",
+"options": ["All numbers are negative", "Array has duplicates", "Array sorted", "Array large"],
+"correct_option": "All numbers are negative",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "kd-007",
+"title": "Divide and conquer solution for max subarray has complexity:",
+"options": ["O(n)", "O(n log n)", "O(log n)", "O(n²)"],
+"correct_option": "O(n log n)",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "kd-008",
+"title": "Kadane works because of which property?",
+"options": ["Optimal substructure", "Greedy choice always optimal", "Binary splitting", "Random sampling"],
+"correct_option": "Optimal substructure",
+"concept": "Arrays",
+"sub_concept": "Kadane",
+"difficulty": 3,
+"expected_time": 90
+},
+{
+"question_id": "bc-001",
+"title": "What is the purpose of a base case in recursion?",
+"options": ["To increase depth", "To prevent infinite recursion", "To optimize memory", "To sort data"],
+"correct_option": "To prevent infinite recursion",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "bc-002",
+"title": "Without a proper base case, recursion results in:",
+"options": ["Stack overflow", "Faster execution", "Heap allocation", "Binary search"],
+"correct_option": "Stack overflow",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "bc-003",
+"title": "Which condition should base case check?",
+"options": ["Stopping condition", "Sorting order", "Memory size", "Graph connectivity"],
+"correct_option": "Stopping condition",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "bc-004",
+"title": "In factorial recursion, base case is typically:",
+"options": ["n == 1", "n == 0", "n < 0", "n > 0"],
+"correct_option": "n == 0",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 2,
+"expected_time": 50
+},
+{
+"question_id": "bc-005",
+"title": "Base case must be reached in:",
+"options": ["Every recursive path", "Only first call", "Only last call", "Random calls"],
+"correct_option": "Every recursive path",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 2,
+"expected_time": 55
+},
+{
+"question_id": "bc-006",
+"title": "What happens if base case is unreachable?",
+"options": ["Infinite recursion", "Immediate return", "Memory leak only", "No execution"],
+"correct_option": "Infinite recursion",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "bc-007",
+"title": "Multiple base cases are required when:",
+"options": ["Problem has multiple stopping conditions", "Recursion depth large", "Sorting required", "Memory limited"],
+"correct_option": "Problem has multiple stopping conditions",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "bc-008",
+"title": "Incorrect base case can cause:",
+"options": ["Wrong output despite termination", "Faster runtime", "Memory optimization", "Binary split"],
+"correct_option": "Wrong output despite termination",
+"concept": "Recursion",
+"sub_concept": "Base Case",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "tr-001",
+"title": "Tree recursion differs from linear recursion because:",
+"options": ["It makes multiple recursive calls", "It uses loops", "It avoids base case", "It sorts nodes"],
+"correct_option": "It makes multiple recursive calls",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "tr-002",
+"title": "Which problem uses tree recursion?",
+"options": ["Fibonacci naive recursion", "Binary search", "Insertion sort", "Stack operations"],
+"correct_option": "Fibonacci naive recursion",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "tr-003",
+"title": "Tree recursion usually increases:",
+"options": ["Time complexity exponentially", "Memory linearly", "Sorting speed", "Heap usage"],
+"correct_option": "Time complexity exponentially",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "tr-004",
+"title": "Why is naive Fibonacci inefficient?",
+"options": ["Repeated overlapping calls", "No base case", "No return value", "Memory leak"],
+"correct_option": "Repeated overlapping calls",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 2,
+"expected_time": 55
+},
+{
+"question_id": "tr-005",
+"title": "Which technique optimizes tree recursion?",
+"options": ["Memoization", "Heap sort", "Binary search", "Sliding window"],
+"correct_option": "Memoization",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "tr-006",
+"title": "Tree recursion typically forms:",
+"options": ["Call tree", "Stack queue", "Binary heap", "Hash table"],
+"correct_option": "Call tree",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "tr-007",
+"title": "Worst case time complexity of naive Fibonacci is:",
+"options": ["O(2^n)", "O(n)", "O(n log n)", "O(log n)"],
+"correct_option": "O(2^n)",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "tr-008",
+"title": "Why does memoization reduce complexity?",
+"options": ["Avoids recomputation of subproblems", "Reduces recursion depth", "Sorts calls", "Uses heap memory"],
+"correct_option": "Avoids recomputation of subproblems",
+"concept": "Recursion",
+"sub_concept": "Tree Recursion",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "tdfs-001",
+"title": "DFS traversal of tree uses:",
+"options": ["Stack or recursion", "Queue", "Heap", "Binary search"],
+"correct_option": "Stack or recursion",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "tdfs-002",
+"title": "Preorder traversal order is:",
+"options": ["Root-Left-Right", "Left-Root-Right", "Left-Right-Root", "Right-Root-Left"],
+"correct_option": "Root-Left-Right",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "tdfs-003",
+"title": "Inorder traversal of BST gives:",
+"options": ["Sorted order", "Reverse order", "Random order", "Level order"],
+"correct_option": "Sorted order",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "tdfs-004",
+"title": "DFS space complexity depends on:",
+"options": ["Tree height", "Number of nodes", "Edges", "Sorting"],
+"correct_option": "Tree height",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 2,
+"expected_time": 55
+},
+{
+"question_id": "tdfs-005",
+"title": "Worst case DFS space complexity in skewed tree:",
+"options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+"correct_option": "O(n)",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "tdfs-006",
+"title": "Postorder traversal useful for:",
+"options": ["Deleting tree", "Searching root", "Sorting array", "Binary search"],
+"correct_option": "Deleting tree",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "tdfs-007",
+"title": "DFS may cause stack overflow in:",
+"options": ["Deep skewed tree", "Balanced tree", "Complete tree", "Small tree"],
+"correct_option": "Deep skewed tree",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "tdfs-008",
+"title": "Which traversal is depth-first?",
+"options": ["Preorder", "Level order", "Breadth-first", "Binary search"],
+"correct_option": "Preorder",
+"concept": "Trees",
+"sub_concept": "DFS",
+"difficulty": 3,
+"expected_time": 85
+},
+
+{
+"question_id": "tbfs-001",
+"title": "BFS traversal of a tree uses which data structure?",
+"options": ["Stack", "Queue", "Heap", "Recursion"],
+"correct_option": "Queue",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "tbfs-002",
+"title": "BFS traversal is also known as:",
+"options": ["Level-order traversal", "Preorder traversal", "Postorder traversal", "Inorder traversal"],
+"correct_option": "Level-order traversal",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "tbfs-003",
+"title": "Which traversal visits nodes level by level?",
+"options": ["DFS", "BFS", "Inorder", "Postorder"],
+"correct_option": "BFS",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "tbfs-004",
+"title": "What is the space complexity of BFS in worst-case complete binary tree?",
+"options": ["O(h)", "O(n)", "O(log n)", "O(1)"],
+"correct_option": "O(n)",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 2,
+"expected_time": 55
+},
+{
+"question_id": "tbfs-005",
+"title": "Why does BFS consume more memory than DFS in balanced trees?",
+"options": ["Stores entire level nodes", "Uses recursion", "Sorts nodes", "Uses binary search"],
+"correct_option": "Stores entire level nodes",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "tbfs-006",
+"title": "BFS is useful for finding:",
+"options": ["Shortest path in unweighted tree", "Deepest leaf always", "Sorting nodes", "Minimum spanning tree"],
+"correct_option": "Shortest path in unweighted tree",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "tbfs-007",
+"title": "In a skewed tree of height n, BFS space complexity is:",
+"options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+"correct_option": "O(n)",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "tbfs-008",
+"title": "BFS guarantees minimum depth solution because:",
+"options": ["It explores level by level", "It sorts nodes", "It uses recursion", "It is greedy"],
+"correct_option": "It explores level by level",
+"concept": "Trees",
+"sub_concept": "BFS",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "bst-101",
+"title": "In a BST, left subtree contains values:",
+"options": ["Greater than root", "Less than root", "Equal only", "Random values"],
+"correct_option": "Less than root",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "bst-102",
+"title": "Searching in balanced BST has time complexity:",
+"options": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+"correct_option": "O(log n)",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "bst-103",
+"title": "Inorder traversal of BST results in:",
+"options": ["Sorted order", "Reverse sorted always", "Random order", "Level order"],
+"correct_option": "Sorted order",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "bst-104",
+"title": "Worst-case search complexity in skewed BST:",
+"options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+"correct_option": "O(n)",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 2,
+"expected_time": 55
+},
+{
+"question_id": "bst-105",
+"title": "Deleting node with two children requires:",
+"options": ["Replace with inorder successor", "Delete directly", "Rotate tree", "Use heap"],
+"correct_option": "Replace with inorder successor",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "bst-106",
+"title": "BST property must hold for:",
+"options": ["Every node", "Only root", "Leaf nodes only", "Internal nodes only"],
+"correct_option": "Every node",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "bst-107",
+"title": "Balanced BST improves performance by:",
+"options": ["Reducing height", "Reducing nodes", "Sorting automatically", "Using less memory"],
+"correct_option": "Reducing height",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "bst-108",
+"title": "If BST invariant is violated, search may:",
+"options": ["Return wrong result", "Still work correctly", "Become constant time", "Reduce memory"],
+"correct_option": "Return wrong result",
+"concept": "Trees",
+"sub_concept": "BST Logic",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "ks-001",
+"title": "0/1 Knapsack problem is best solved using:",
+"options": ["Dynamic Programming", "Greedy always", "Binary Search", "DFS only"],
+"correct_option": "Dynamic Programming",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "ks-002",
+"title": "0/1 Knapsack differs from fractional knapsack because:",
+"options": ["Items cannot be divided", "Items must be sorted", "Greedy always works", "Weights are equal"],
+"correct_option": "Items cannot be divided",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "ks-003",
+"title": "State definition for knapsack DP typically represents:",
+"options": ["Index and capacity", "Only weight", "Only value", "Graph node"],
+"correct_option": "Index and capacity",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "ks-004",
+"title": "Time complexity of classic 0/1 knapsack DP:",
+"options": ["O(nW)", "O(n log n)", "O(W)", "O(n²)"],
+"correct_option": "O(nW)",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "ks-005",
+"title": "Which condition represents transition in 0/1 knapsack?",
+"options": ["dp[i][w] = max(include, exclude)", "dp[i] = dp[i-1]", "Sort weights", "Use BFS"],
+"correct_option": "dp[i][w] = max(include, exclude)",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 2,
+"expected_time": 65
+},
+{
+"question_id": "ks-006",
+"title": "Knapsack shows which DP property?",
+"options": ["Optimal substructure", "Greedy choice always", "Divide and conquer only", "No overlapping"],
+"correct_option": "Optimal substructure",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "ks-007",
+"title": "Space optimization in knapsack is possible by:",
+"options": ["Using 1D DP array", "Sorting items", "Using stack", "Using recursion only"],
+"correct_option": "Using 1D DP array",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "ks-008",
+"title": "Why does greedy fail for 0/1 knapsack?",
+"options": ["Local optimum not always global optimum", "Memory issue", "Sorting required", "No base case"],
+"correct_option": "Local optimum not always global optimum",
+"concept": "DP",
+"sub_concept": "Knapsack",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "mm-001",
+"title": "Memoization is:",
+"options": ["Top-down DP", "Bottom-up DP", "Greedy method", "Sorting method"],
+"correct_option": "Top-down DP",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "mm-002",
+"title": "Memoization avoids:",
+"options": ["Repeated computation", "Recursion", "Stack overflow", "Sorting"],
+"correct_option": "Repeated computation",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "mm-003",
+"title": "Memoization requires storing:",
+"options": ["Subproblem results", "Entire arrays", "Sorted values", "Graph edges"],
+"correct_option": "Subproblem results",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "mm-004",
+"title": "Memoization is useful when problem has:",
+"options": ["Overlapping subproblems", "Unique subproblems", "No recursion", "Graph traversal only"],
+"correct_option": "Overlapping subproblems",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 2,
+"expected_time": 55
+},
+{
+"question_id": "mm-005",
+"title": "Difference between memoization and tabulation:",
+"options": ["Top-down vs Bottom-up", "Sorting vs Searching", "Stack vs Heap", "Binary vs Linear"],
+"correct_option": "Top-down vs Bottom-up",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "mm-006",
+"title": "Memoization typically uses:",
+"options": ["Dictionary/array cache", "Queue", "Heap", "Stack only"],
+"correct_option": "Dictionary/array cache",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "mm-007",
+"title": "Without memoization, recursion may cause:",
+"options": ["Exponential time", "Linear time", "Constant time", "Sorting"],
+"correct_option": "Exponential time",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "mm-008",
+"title": "Memoization improves complexity by:",
+"options": ["Avoiding repeated states", "Reducing memory to zero", "Removing base case", "Using BFS"],
+"correct_option": "Avoiding repeated states",
+"concept": "DP",
+"sub_concept": "Memoization",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "gdfs-001",
+"title": "Graph DFS traversal uses:",
+"options": ["Stack or recursion", "Queue", "Heap", "Binary search"],
+"correct_option": "Stack or recursion",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "gdfs-002",
+"title": "DFS explores graph in:",
+"options": ["Depth-first manner", "Level-order", "Random order", "Sorted order"],
+"correct_option": "Depth-first manner",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "gdfs-003",
+"title": "DFS is commonly used for:",
+"options": ["Cycle detection", "Binary search", "Heap operations", "Sorting only"],
+"correct_option": "Cycle detection",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 1,
+"expected_time": 40
+},
+{
+"question_id": "gdfs-004",
+"title": "Time complexity of DFS is:",
+"options": ["O(V + E)", "O(V²)", "O(E²)", "O(log V)"],
+"correct_option": "O(V + E)",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "gdfs-005",
+"title": "DFS space complexity depends on:",
+"options": ["Recursion depth", "Number of edges only", "Sorting", "Heap size"],
+"correct_option": "Recursion depth",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "gdfs-006",
+"title": "DFS may fail in deep graphs due to:",
+"options": ["Stack overflow", "Queue overflow", "Sorting error", "Binary error"],
+"correct_option": "Stack overflow",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 2,
+"expected_time": 65
+},
+{
+"question_id": "gdfs-007",
+"title": "DFS can detect cycle in directed graph using:",
+"options": ["Recursion stack tracking", "Sorting", "Binary search", "Heap"],
+"correct_option": "Recursion stack tracking",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "gdfs-008",
+"title": "DFS traversal order depends on:",
+"options": ["Adjacency list ordering", "Node values", "Heap order", "Binary property"],
+"correct_option": "Adjacency list ordering",
+"concept": "Graphs",
+"sub_concept": "DFS",
+"difficulty": 3,
+"expected_time": 85
+},
+{
+"question_id": "gbfs-001",
+"title": "Graph BFS uses:",
+"options": ["Queue", "Stack", "Heap", "Recursion"],
+"correct_option": "Queue",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 1,
+"expected_time": 30
+},
+{
+"question_id": "gbfs-002",
+"title": "BFS finds shortest path in:",
+"options": ["Unweighted graph", "Weighted graph", "Directed acyclic graph only", "Tree only"],
+"correct_option": "Unweighted graph",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "gbfs-003",
+"title": "BFS explores nodes:",
+"options": ["Level by level", "Depth-first", "Randomly", "Sorted order"],
+"correct_option": "Level by level",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 1,
+"expected_time": 35
+},
+{
+"question_id": "gbfs-004",
+"title": "Time complexity of BFS:",
+"options": ["O(V + E)", "O(V²)", "O(E²)", "O(log V)"],
+"correct_option": "O(V + E)",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "gbfs-005",
+"title": "BFS space complexity depends on:",
+"options": ["Maximum width of graph", "Height only", "Sorting", "Heap size"],
+"correct_option": "Maximum width of graph",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 2,
+"expected_time": 60
+},
+{
+"question_id": "gbfs-006",
+"title": "BFS is preferred over DFS when:",
+"options": ["Shortest path required", "Deep recursion needed", "Memory small", "Sorting required"],
+"correct_option": "Shortest path required",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 2,
+"expected_time": 65
+},
+{
+"question_id": "gbfs-007",
+"title": "BFS guarantees minimum distance because:",
+"options": ["Explores layer by layer", "Uses recursion", "Uses heap", "Is greedy"],
+"correct_option": "Explores layer by layer",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 3,
+"expected_time": 80
+},
+{
+"question_id": "gbfs-008",
+"title": "In weighted graph with varying weights, BFS fails because:",
+"options": ["Does not consider weights", "Uses queue", "Uses recursion", "Consumes memory"],
+"correct_option": "Does not consider weights",
+"concept": "Graphs",
+"sub_concept": "BFS",
+"difficulty": 3,
+"expected_time": 85
+}
+]
